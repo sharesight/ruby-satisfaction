@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "ruby-satisfaction"
 
-  s.add_dependency 'nokogiri', '>= 1.4.2'
+  s.add_dependency 'nokogiri', '< 1.6.0'
   s.add_dependency 'json', '>= 1.7.3'
   s.add_dependency 'activesupport'
   s.add_dependency 'memcache-client', '>= 1.5.0'
